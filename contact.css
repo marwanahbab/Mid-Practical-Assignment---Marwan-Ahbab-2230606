@@ -30,3 +30,14 @@ textarea {
     min-height: 150px;
     resize: vertical;
 }
+
+.contact-image {
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.contact-image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
