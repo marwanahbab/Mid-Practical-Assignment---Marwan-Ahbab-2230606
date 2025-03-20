@@ -1,4 +1,42 @@
-.main {
+
+
+.mainsection {
     padding: 64px 0;
     background: var(--background);
 }
+
+.flex-container {
+    display: flex;
+    gap: 32px;
+    align-items: center;
+}
+
+.featuredimg {
+    width: 80%;     
+}
+.featured-content {
+    flex: 1;
+}
+
+.main-image {
+    flex: 1;
+}
+
+.main-image img {
+    width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.featured {
+    padding: 32px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 32px;
+    padding: 32px 0;
+}
+
+

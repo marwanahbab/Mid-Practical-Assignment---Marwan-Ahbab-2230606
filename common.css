@@ -14,14 +14,6 @@
     flex-direction: column;
   }
   
-  
-.sitename {
-    font-size: 24px;
-    font-weight: bold;
-    color: white;
-    text-decoration: none;
-  }
-  
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -39,7 +31,15 @@
     justify-content: space-between;
     align-items: center;
   }
-.nav-links {
+  
+  .sitename {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
     display: flex;
     gap: 24px;
   }
@@ -57,4 +57,3 @@
   .nav-link.active {
     font-weight: bold;
   }
-
