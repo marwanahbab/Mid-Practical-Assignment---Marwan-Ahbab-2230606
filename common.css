@@ -99,3 +99,12 @@
     gap: 32px;
     margin-bottom: 32px;
   }
+
+  .socials {
+    display:flex;
+    gap: 16px;
+  }
+  .socials a {
+    color: white;
+    text-decoration: none;
+  }
