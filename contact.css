@@ -1,0 +1,9 @@
+.contact-container {
+    max-width: 600px;
+    margin: 32px auto;
+    padding: 0 16px;
+}
+
+.contact-intro {
+    margin-bottom: 24px;
+}
